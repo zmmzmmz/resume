@@ -1,5 +1,5 @@
 export default () => {
-  return <div>
-    studies
-  </div>
+  return <section>
+    <h3>教育经历</h3>
+  </section>
 }

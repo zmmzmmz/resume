@@ -1,7 +1,29 @@
 @media print {
 }
 
-body {
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
   font-size: 15px;
+}
+img {
+  max-width: 100%;
+}
+.page {
+  box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+  margin: 2rem 2rem;
+  border-radius: 2px;
+  padding: 1.5rem 30px;
+}
+.page section {
+  margin-top: 1.5rem;
+}
+.page section h3 {
+  padding: .5rem 0;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #333;
 }
 

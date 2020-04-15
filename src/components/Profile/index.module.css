@@ -8,6 +8,11 @@
   display: inline-block;
   border-radius: 1000px;
   background-color: #eee;
+  overflow: hidden;
+}
+.profileAvatar img {
+  height: 120px;
+  object-fit: cover;
 }
 
 .profileInfo {
