@@ -2,24 +2,34 @@
   "name": "张明",
   "avatar": "",
   "bio": "learn,share,advance",
-  "eduction": [
+  "educations": [
     {
-      "degree": "",
-      "startAt": "2012-09",
-      "endAt": "2016-06",
+      "degree": "本科",
+      "startAt": "2012年09月",
+      "endAt": "2016年06月",
       "major": "应用化学",
       "school": "河南农业大学"
     }
   ],
   "works": [
     {
-      "level": "实习生",
-      "company": "深圳易定云",
+      "level": "前端实习生",
+      "company": "深圳易订云",
       "product": "马上吃（用户端）",
       "experience": "",
-      "products": [],
-      "startAt": "2015-10",
-      "endAt": "2016-03",
+      "products": [
+        {
+          "name": "马上吃",
+          "desc": "提供线上订餐平台",
+          "duration": "",
+          "scopes": [
+            "参与商家菜单界面以及下单界面的开发",
+            "使用 Angular1 + Ionic 开发 Hybrid App"
+          ]
+        }
+      ],
+      "startAt": "2015年10月",
+      "endAt": "2016年03月",
       "summary": ""
     },
     {
@@ -28,47 +38,47 @@
       "experience": "",
       "products": [
         {
-          "name": "CoChat 聊天系统",
-          "desc": "类微信多开应用（web端）",
-          "duration": "",
-          "scopes": [
-            "负责项目用户端，以及项目管理后台部分",
-            ""
-          ]
-        },
-        {
           "name": "iLifeDiary （心書日記）",
           "desc": "提供海外社交内容（脸书，Instagram）打印业务，自动排版",
           "duration": "",
           "scopes": [
             "独立负责项目用户端（维护/迭代）和管理后台项目，以及有关产品调研（stripe 支付等）",
             "使用Vue全家桶+ webpack@3 开发前端界面，使用 sentry 持续监测并追踪用户端错误，结合 gitlab-runner 实现持续集成，提升开发舒适感",
-            "使用 AWS 的 Lambda 函数结合 nodejs gm 库实现上传 Bucket 之后的图片压缩，结合 Cloudfront CDN 服务有效降低了访问流量费用",
-            "结合运营需求，添加 FB pixel 等持续监测并优化网站跳出率，有效减低广告成本，针对部分功能结合需求使用 GA 做 A/B testing ，提高转化率",
-            "尝试使用 SSR 渲染首页，优化用户首屏体验",
+            "使用 AWS 的 Lambda 函数结合 nodejs gm 库实现上传 Bucket 之后的图片压缩，并整合 Cloudfront CDN 服务有效降低了访问流量费用",
+            "根据运营需求，添加 FB pixel 等持续监测并优化网站跳出率，有效减低广告成本，针对部分功能结合需求使用 GA 做 A/B testing ，提高转化率",
+            "尝试使用 SSR 渲染首页，优化用户首屏体验，优化 webpack 配置，针对路由界面做 code splitting，不常用路由做 lazyload",
             "管理后台使用 react + redux + antd，结合 HOC 组件分离出**查询分页组件**，提高管理后台的开发效率"
-          ]
-        },
-        {
-          "name": "分销系统",
-          "desc": "提供微商分销系统",
-          "scope": [
-            "教学系统"
           ]
         },
         {
           "name": "Canvas",
           "desc": "前端模板服务（提供运营活动封面，支持全链路的封面/二维码/模板支持）",
           "scopes": [
-            "项目是由 node-canvas 实现，模拟浏览器端的 canvas 绘制图层，设计师新增模板/自定义图层（文字，颜色块，图像）设计封面/HTML模板，运营使用对应模板，添加自定义参数，追踪用户PV/留存",
+            "项目是基于 node-canvas 实现，通过 canvas 绘制图层导出 png/jpg/html，设计师新增模板/自定义图层（文字，颜色块，图像）设计封面/HTML模板，运营使用对应模板，添加自定义参数，追踪用户PV/留存"
+          ]
+        },
+        {
+          "name": "企业年鉴",
+          "desc": "钉钉微应用（企业年报导出打印成书，自动排版）",
+          "scopes": [
+            "负责用户端的开发，前端使用 react， 通过 DD JSSDK 调用业务控件，实现用户日志的导出",
+            "负责服务端的授权，使用 MongoDB 存储用户数据"
           ]
         }
       ],
-      "startAt": "2015-10",
-      "endAt": "2016-03",
+      "startAt": "2016年09月",
+      "endAt": "至今",
       "summary": ""
     }
   ],
   "personalWorks": [
+    {
+      "name": "菜篮子工程 🚧 - working on",
+      "desc": "为了对比线上和线下菜价的不同，给平时不太买菜的同学提供一个较为合理的参考价格。",
+      "scopes": [
+        "使用 charles 抓包小程序内叮咚买菜的数据来源，分析接口，按种类爬取菜品价格。通过爬取官方的菜市场列表，数据都存到 MongoDB",
+        "支持搜索附近的菜市场（通过 DB 的地理空间索引），推荐想吃的菜以及菜谱，估算一盘菜的大概花费"
+      ]
+    }
   ]
 }

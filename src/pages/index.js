@@ -5,9 +5,8 @@ import Studies from '../components/Studies'
 import Works from '../components/Works'
 import Personal from '../components/Personal'
 import {ThemeProvider} from '../context/theme'
-// import profile from '../profile'
 
-export default () => {
+const Home = ({profile}) => {
   return <ThemeProvider>
     <Head>
       <title>我的个人简历</title>
@@ -20,10 +19,19 @@ export default () => {
     <div className={'page'}>
       <Profile />
       <main>
-        <Studies />
-        <Works />
-        <Personal />
+        <Works works={profile.works} />
+        <Studies educations={profile.educations} />
+        <Personal works={profile.personalWorks} />
       </main>
     </div>
   </ThemeProvider>
 }
+
+Home.getInitialProps = async ctx => {
+  const profile = require('../profile')
+  console.log(profile)
+  return {profile}
+}
+
+
+export default Home

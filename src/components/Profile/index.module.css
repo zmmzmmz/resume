@@ -1,19 +1,29 @@
 .profile {
   font-size: 14px;
+  display: flex;
 }
 
 .profileAvatar {
-  height: 120px;
-  width: 120px;
+  height: 64px;
+  width: 64px;
   display: inline-block;
   border-radius: 1000px;
   background-color: #eee;
   overflow: hidden;
 }
 .profileAvatar img {
-  height: 120px;
+  height: 64px;
   object-fit: cover;
 }
 
 .profileInfo {
+  margin-left: 2rem;
+  padding-left: 2rem;
+  border-left: 3px solid #333;
+  color: #666;
+  line-height: 1.5;
+  flex: 1;
+}
+.profileSocial {
+  flex: 1;
 }

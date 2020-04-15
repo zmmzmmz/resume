@@ -1,0 +1,29 @@
+.work {
+  margin-bottom: 1.5rem;
+}
+.work h4 {
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  display: flex;
+  justify-content: space-between;
+}
+.workProduct {
+  margin: 1rem 0;
+}
+.workScopes {
+  margin-left: 1.5em;
+  color: #333;
+}
+.workScopes li {
+  margin-top: .35rem;
+  line-height: 1.5;
+  font-size: 16px;
+}
+.workRecord {
+
+}
+
+.workTitle {
+  font-size: 18px;
+}
