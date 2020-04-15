@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "description": "personal resume",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "generate": "next build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youzpan/resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youzpan/resume/issues"
+  },
+  "homepage": "https://github.com/youzpan/resume#readme",
+  "dependencies": {
+    "next": "^9.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
