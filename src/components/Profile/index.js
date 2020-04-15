@@ -12,6 +12,7 @@ export default ({children, avatar, user, level}) => {
     </div>
     <div className={style.profileSocial}>
       <p className={'text-large text-gray'}>社交</p>
+      <p><span className={'text-gray'}>phone：</span>13575482275</p>
       <p><span className={'text-gray'}>github：</span><a href="http://github.com/youzpan">http://github.com/youzpan</a></p>
       <p><span className={'text-gray'}>gitee：</span><a href="https://gitee.com/russel">https://gitee.com/russel</a></p>
     </div>
